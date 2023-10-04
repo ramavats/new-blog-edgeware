@@ -46,7 +46,7 @@ export default async function IndexPage() {
                 {new Date(post._createdAt).toISOString().split('T')[0]}
               </p>
               </div>
-              <div className="h-96 w-full relative">
+              <div className="h-56 w-full relative">
               <Image fill src={post.imageUrl} alt="cover image" className="h-full w-full object-cover rounded-lg" />
               </div>
               <p className="pros max-w-none text-gray-500 dark:text-gray-400 line-clamp-3">

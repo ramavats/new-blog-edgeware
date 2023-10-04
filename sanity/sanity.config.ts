@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'edge-blog',
+  title: 'blog-edg',
 
-  projectId: 'vzaczoqj',
+  projectId: 'ms37wnti',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
